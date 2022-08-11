@@ -1,0 +1,77 @@
+===============================================================================
+=    W e l c o m e   t o   t h e   V I M   T u t o r    -    Version 1.7      =
+===============================================================================
+
+     These lessons have been taken from or been based off
+     V I M   T u to r    -    Version 1.7
+
+     It is important to remember that this tutor is set up to teach by
+     use.  That means that you need to execute the commands to learn them
+     properly.  If you only read the text, you will forget the commands!
+
+     Now, make sure that your Caps-Lock key is NOT depressed and press
+     the   j   key enough times to move the cursor so that lesson 1.1
+     completely fills the screen.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Lesson 2.1:  MOVING THE CURSOR BETWEEN WORDS
+
+
+    ** To move the cursor between words, press w, e or b. **
+       w: Move to the beginning of the next word
+       e: Move to the end of the (next) word
+       b: Move to the beginning of the (previous) word
+
+  1. Move the cursor to the line marked --->.
+
+  2. Move the cursor to the beginning of the word "The" using 'l'.
+
+  3. Press 'w'. Press 'l'. Press 'w'.
+
+  4. Press 'e'. Press 'h'. Press 'e'. Press 'e'
+
+  5. Press 'b'. Press 'l'. Press 'b'. Press  'b'
+
+  6. Play around until you are comfortable using 'w', 'e' and 'b'.
+
+---> The quick brown fox jumped over the lazy dog
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Lesson 2.2:  MOVING THE CURSOR TO A SPECIFIC CHARACTER
+
+     ** Press 'f' followed by a character to move the cursor forward
+        to that character **
+
+  1. Move the cursor to the line marked --->.
+
+  2. Press 'fq' to move to the first q.
+
+  3. 'F' searches backwards. Press 'FT' to move the cursor backwards.
+
+  4. 't' moves the cursor up to the next occurence of the
+      character. Press 'tn' to move the cursor to the "w" in "brown".
+
+  5. 'T' does the same thing backwards. Press 'Tq'.
+
+  6. Play around with 'f', 'F', 't' and 'T' until you are comfortable.
+
+
+---> The quick brown fox jumped over the lazy dog.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+			Lesson 4.2: THE SEARCH COMMAND
+
+
+     ** Type  /  followed by a phrase to search for the phrase. **
+
+  1. In Normal mode type the  /  character.  Notice that it and the cursor
+     appear at the bottom of the screen as with the  :	command.
+
+  2. Now type 'errroor' <ENTER>.  This is the word you want to search for.
+
+  3. To search for the same phrase again, simply type  n .
+     To search for the same phrase in the opposite direction, type  N .
+
+  4. To search for a phrase in the backward direction, use  ?  instead of  / .
+
+--->  "errroor" is not the way to spell error;  errroor is an error.
+
